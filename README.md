@@ -108,6 +108,5 @@ npm run dev
 - `DELETE /api/chat/:id` - Delete specific chat (protected)
 - `DELETE /api/chat` - Clear all chats (protected)
 
-### Health
-- `GET /api/health` - API health check
+
 
