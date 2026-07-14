@@ -1,0 +1,14 @@
+{
+  "name": "luna-voice-assistant",
+  "version": "1.0.0",
+  "description": "Luna - An Intelligent AI Voice Assistant Using the MERN Stack",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
